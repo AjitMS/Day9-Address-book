@@ -1,0 +1,11 @@
+{
+  "balance": 7000,
+  "stocks": [
+    {
+      "stockSymbol": "TCS",
+      "priceOfEachStock": 3000,
+      "count": 1,
+      "dateAndTimeOfTransaction": "02-08-2021 15:39"
+    }
+  ]
+}
