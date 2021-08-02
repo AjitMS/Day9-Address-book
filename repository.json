@@ -1,0 +1,19 @@
+{
+  "balance": 103000,
+  "stocks": [
+    {
+      "stockSymbol": "TCS",
+      "priceOfEachStock": 3000,
+      "count": 99,
+      "dateAndTimeOfTransaction": "02-08-2021 15:39"
+    }, {
+      "stockSymbol": "DMART",
+      "priceOfEachStock": 4000,
+      "count": 100
+    },{
+      "stockSymbol": "RIL",
+      "priceOfEachStock": 2500,
+      "count": 100
+    }
+  ]
+}
