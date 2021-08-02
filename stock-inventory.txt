@@ -1,0 +1,68 @@
+List<CompanyShares> repositoryList  //List of CompanyShares // declaration
+String accountName 
+
+constructor(String accountName) {
+this.accountName = accountName;
+repository = new ArrayList<>(); // initialization
+ // create a file named accountName.json
+ // initialize balance to 10000 and stocks to empty array
+
+// create repository.json while initialization
+ // json create if not exists
+ // read already manually created repository.json into our repositoryList list
+ // iterate every JSONObject in JSONArray and create CompanyShares object from it and populate all into repositoryList.
+}
+
+main() {
+ Scanner s = new Scanner(sys.in);
+ s.nextInt(); // accountName;
+StockAcount sa = new StockAccount(accountName);
+ s.nextInt(); // choice;
+if(choice = 1) {
+ sa.valueOf(); 
+}
+if(choice = 2){
+ sa.buy();
+}
+
+
+valueOf() {
+ // read accountName.json
+ // balance + stock value
+}
+
+buy() {
+// get amountOfStocks-2, symbol-TCS from user by Scanner class
+ // check repository and fetch price of stock-TCS - 3000
+ // totalPrice - amount*priceOfEach - 2*3000 = 6000
+ // check balance in accountName.json
+ // check in stock status for stock - TCS-2
+ // subtract stock count from repository  and add up in balance
+ // add-up stock count in accountName.json and subtract balance
+ // appropriate exception handling
+ // in case of invalid data, handling should be in place
+
+}
+
+sell() {
+ // get amountOfStocks-1, symbol-TCS from user by Scanner class
+ // check accountName.json whether this person actually owns this much stocks
+ // check repository.json whether repository has enough balance
+ // subtract noOfStocks from accountName.json and add-up balance
+ // add-up stocks in repository.json and subtract balance
+ // appropriate exception handling
+ // in case of invalid data, handling should be in place
+}
+
+save(String accountName) {
+ this.accountName = accountName;
+ // throw exception if it already exists
+ // create a file named accountName.json
+}
+
+printReport() 
+{
+ // read accountName.json
+ // particulars of stocks and remaining balance.
+}
+
